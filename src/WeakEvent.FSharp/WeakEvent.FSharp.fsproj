@@ -6,7 +6,15 @@
 	  <PackageReadmeFile>README.md</PackageReadmeFile>	  
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
 	  <Nullable>enable</Nullable>
-	  <Version>0.0.1</Version>
+	  <Version>0.0.2</Version>
+	  <Title>F# Wak Events</Title>
+	  <Authors>franco.tiveron</Authors>
+	  <Company>franco.tiveron</Company>
+	  <Description>F# Bindings for ThomasLevesque.WeakEvent</Description>
+	  <Copyright>Franco Tiveron</Copyright>
+	  <PackageProjectUrl>https://github.com/francotiveron/WeakEvent.FSharp</PackageProjectUrl>
+	  <PackageIcon>weakevent.png</PackageIcon>
+	  <RepositoryUrl>https://github.com/francotiveron/WeakEvent.FSharp</RepositoryUrl>
   </PropertyGroup>
 
   <ItemGroup>
@@ -14,7 +22,11 @@
   </ItemGroup>
 
   <ItemGroup>
-	  <None Include="..\..\README.md" Pack="true" PackagePath="\"/>
+	  <None Include="..\..\README.md" Pack="true" PackagePath="\" />
+	  <None Include="weakevent-fsharp.png">
+	    <Pack>True</Pack>
+	    <PackagePath>\</PackagePath>
+	  </None>
 	  <PackageReference Include="ThomasLevesque.WeakEvent" Version="4.1.0" />
   </ItemGroup>
 
