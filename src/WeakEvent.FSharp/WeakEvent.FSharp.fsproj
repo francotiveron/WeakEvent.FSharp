@@ -19,6 +19,7 @@
 
   <ItemGroup>
     <Compile Include="WeakEvent.fs" />
+    <Compile Include="WeakEventModule.fs" />
   </ItemGroup>
 
   <ItemGroup>
